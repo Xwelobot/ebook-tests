@@ -120,7 +120,7 @@ Kroki:
 2. Potwierdź usunięcie.
 Oczekiwany rezultat: Egzemplarz usunięty.
 
-### SCENARIUSZ 15 – Wejście w listę wypożzeń egzemplarza (Pozytywny)
+### SCENARIUSZ 15 – Wejście w listę wypożyczeń egzemplarza (Pozytywny)
 Kroki:
 1. Kliknij "Wypożyczenia" przy egzemplarzu.
 Oczekiwany rezultat: Przejście do ekranu listy wypożyczeń dla egzemplarza.
