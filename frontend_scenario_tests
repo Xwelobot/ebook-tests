@@ -93,3 +93,85 @@ Kroki:
 1. Kliknij "Usuń".
 2. W oknie potwierdzenia wybierz "Anuluj".
 Oczekiwany rezultat: Tytuł nie zostaje usunięty.
+
+---
+
+# EKRAN 3 – Lista Egzemplarzy
+
+### SCENARIUSZ 12 – Dodanie nowego egzemplarza (Pozytywny)
+Warunki wstępne: Istnieje tytuł.
+Kroki:
+1. Wejdź w listę egzemplarzy dla danego tytułu.
+2. Kliknij "Dodaj egzemplarz".
+3. Wprowadź datę zakupu, status.
+4. Kliknij "Zapisz".
+Oczekiwany rezultat: Nowy egzemplarz widoczny na liście.
+
+### SCENARIUSZ 13 – Edycja egzemplarza (Pozytywny)
+Kroki:
+1. Na liście egzemplarzy kliknij "Edytuj".
+2. Zmień status lub datę zakupu.
+3. Kliknij "Zapisz".
+Oczekiwany rezultat: Egzemplarz zaktualizowany.
+
+### SCENARIUSZ 14 – Usunięcie egzemplarza (Pozytywny)
+Kroki:
+1. Kliknij "Usuń" przy egzemplarzu.
+2. Potwierdź usunięcie.
+Oczekiwany rezultat: Egzemplarz usunięty.
+
+### SCENARIUSZ 15 – Wejście w listę wypożzeń egzemplarza (Pozytywny)
+Kroki:
+1. Kliknij "Wypożyczenia" przy egzemplarzu.
+Oczekiwany rezultat: Przejście do ekranu listy wypożyczeń dla egzemplarza.
+
+---
+
+# EKRAN 4 – Lista Wypożyczeń
+
+### SCENARIUSZ 16 – Dodanie nowego wypożyczenia (Pozytywny)
+Warunki wstępne: Egzemplarz jest dostępny.
+Kroki:
+1. Kliknij "Dodaj wypożyczenie".
+2. Wprowadź imię i nazwisko klienta.
+3. Kliknij "Zapisz".
+Oczekiwany rezultat: Wypożyczenie widoczne na liście.
+
+### SCENARIUSZ 17 – Usunięcie wypożyczenia (Pozytywny)
+Kroki:
+1. Kliknij "Usuń" przy wypożyczeniu.
+2. Potwierdź usunięcie.
+Oczekiwany rezultat: Wypożyczenie usunięte.
+
+### SCENARIUSZ 18 – Edycja wypożyczenia (Pozytywny)
+Kroki:
+1. Kliknij "Edytuj" przy wypożyczeniu.
+2. Zmień dane klienta lub daty.
+3. Kliknij "Zapisz".
+Oczekiwany rezultat: Wypożyczenie zaktualizowane.
+
+---
+
+# EKRAN 5 – Formatka Wypożyczenia
+
+### SCENARIUSZ 19 – Nowe wypożyczenie - wprowadzenie danych (Pozytywny)
+Kroki:
+1. Otwórz formatkę nowego wypożyczenia.
+2. Sprawdź, czy "Data wypożyczenia" ustawia się na dzisiejszą datę.
+3. Sprawdź, czy "Data wygaśnięcia" ustawia się na dzisiejsza data + 3 dni.
+4. Uzupełnij imię i nazwisko.
+5. Kliknij "Zapisz".
+Oczekiwany rezultat: Wypożyczenie zapisane poprawnie.
+
+### SCENARIUSZ 20 – Edycja wypożyczenia - zmiana wszystkich pol (Pozytywny)
+Kroki:
+1. Otwórz istniejące wypożyczenie do edycji.
+2. Zmień wszystkie pola.
+3. Kliknij "Zapisz".
+Oczekiwany rezultat: Wypożyczenie zaktualizowane.
+
+---
+
+**Uwagi:**
+Każdy użytkownik pracuje niezależnie na swojej liście eBooków, co realizowane jest przez backend.
+
