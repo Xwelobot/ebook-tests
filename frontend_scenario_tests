@@ -1,0 +1,95 @@
+**Scenariusze testowe frontend aplikacji**
+
+---
+
+# EKRAN 1 – Logowanie / Rejestracja
+
+### SCENARIUSZ 1 – Udane logowanie (Pozytywny)
+Warunki wstępne: Użytkownik posiada konto.
+Kroki:
+1. Otwórz stronę logowania.
+2. Wprowadź poprawną nazwę użytkownika i hasło.
+3. Kliknij przycisk "Zaloguj się".
+Oczekiwany rezultat: Przejście do ekranu listy tytułów.
+
+### SCENARIUSZ 2 – Logowanie z niepoprawnym hasłem (Negatywny)
+Warunki wstępne: Użytkownik istnieje.
+Kroki:
+1. Otwórz stronę logowania.
+2. Wprowadź poprawną nazwę użytkownika i błędne hasło.
+3. Kliknij przycisk "Zaloguj się".
+Oczekiwany rezultat: Komunikat o błędzie "Nieprawidłowe dane logowania".
+
+### SCENARIUSZ 3 – Logowanie bez danych (Negatywny)
+Warunki wstępne: Brak.
+Kroki:
+1. Otwórz stronę logowania.
+2. Nie wprowadzaj żadnych danych.
+3. Kliknij "Zaloguj się".
+Oczekiwany rezultat: Komunikaty o wymaganych polach.
+
+### SCENARIUSZ 4 – Udana rejestracja nowego użytkownika (Pozytywny)
+Warunki wstępne: Użytkownik nie istnieje.
+Kroki:
+1. Otwórz stronę rejestracji.
+2. Wprowadź wymagane dane.
+3. Kliknij "Zarejestruj się".
+Oczekiwany rezultat: Konto utworzone, przekierowanie na ekran logowania lub automatyczne zalogowanie.
+
+### SCENARIUSZ 5 – Rejestracja istniejącego użytkownika (Negatywny)
+Warunki wstępne: Użytkownik istnieje.
+Kroki:
+1. Otwórz stronę rejestracji.
+2. Wprowadź dane istniejącego użytkownika.
+3. Kliknij "Zarejestruj się".
+Oczekiwany rezultat: Komunikat "Użytkownik już istnieje".
+
+---
+
+# EKRAN 2 – Lista Tytułów
+
+### SCENARIUSZ 6 – Dodanie nowego tytułu (Pozytywny)
+Warunki wstępne: Użytkownik zalogowany.
+Kroki:
+1. Kliknij "Dodaj nowy tytuł".
+2. Wypełnij autor, tytuł, rok wydania.
+3. Kliknij "Zapisz".
+Oczekiwany rezultat: Nowy tytuł pojawia się na liście.
+
+### SCENARIUSZ 7 – Dodanie tytułu bez wymaganych danych (Negatywny)
+Warunki wstępne: Użytkownik zalogowany.
+Kroki:
+1. Kliknij "Dodaj nowy tytuł".
+2. Wprowadź niepełne dane.
+3. Kliknij "Zapisz".
+Oczekiwany rezultat: Komunikaty o brakujących danych, brak dodania.
+
+### SCENARIUSZ 8 – Edycja istnieącego tytułu (Pozytywny)
+Warunki wstępne: Istnieje tytuł.
+Kroki:
+1. Kliknij "Edytuj" przy tytule.
+2. Zmień dane (np. rok wydania).
+3. Kliknij "Zapisz".
+Oczekiwany rezultat: Zaktualizowany tytuł na liście.
+
+### SCENARIUSZ 9 – Edycja z błędnymi danymi (Negatywny)
+Warunki wstępne: Istnieje tytuł.
+Kroki:
+1. Kliknij "Edytuj".
+2. Wprowadź błędne dane (np. litery w polu roku).
+3. Kliknij "Zapisz".
+Oczekiwany rezultat: Walidacja błędu, brak aktualizacji.
+
+### SCENARIUSZ 10 – Usunięcie tytułu (Pozytywny)
+Warunki wstępne: Istnieje tytuł.
+Kroki:
+1. Kliknij "Usuń" przy tytule.
+2. Potwierdź usunięcie.
+Oczekiwany rezultat: Tytuł zostaje usunięty z listy.
+
+### SCENARIUSZ 11 – Anulowanie usuwania tytułu (Negatywny)
+Warunki wstępne: Istnieje tytuł.
+Kroki:
+1. Kliknij "Usuń".
+2. W oknie potwierdzenia wybierz "Anuluj".
+Oczekiwany rezultat: Tytuł nie zostaje usunięty.
